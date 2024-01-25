@@ -24,6 +24,7 @@ if opcion == 1:
     print("-",euro,"euros")
     print("-",yen,"yenes")
 
+##este es un comentario
 if opcion == 2:
     dolar = input("Ingrese la cantidad de dolares a convertir: $")
     dolar = float(dolar)
