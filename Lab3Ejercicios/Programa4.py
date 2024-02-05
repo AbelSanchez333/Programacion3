@@ -9,7 +9,7 @@ numero1 = int(input("Ingrese el primer numero: "))
 numero2 = int(input("Ingrese el segundo numero: "))
 resultado = suma_es_par(numero1, numero2)
 
-if resultado == True:
+if resultado:
     print (f"La suma de ambos numeros es par: {resultado}")
 else:
     print (f"La suma de ambos numeros es impar: {resultado}")
